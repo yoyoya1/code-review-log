@@ -32,7 +32,7 @@ jobs:
           java-version: '11'
 
       - name: Create libs directory
-      - run: mkdir -p ./libs
+        run: mkdir -p ./libs
 
       - name: Download Remote jar
         run: wget -O ./libs/openai-code-review-sdk-1.0.jar https://github.com/yoyoya1/code-review-log/releases/download/v1.0/ai-code-review-sdk-1.0.jar
