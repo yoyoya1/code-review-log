@@ -35,7 +35,7 @@ jobs:
         run: mkdir -p ./libs
 
       - name: Download Remote jar
-        run: wget -O ./libs/openai-code-review-sdk-1.0.jar https://github.com/yoyoya1/code-review-log/releases/download/v1.0/ai-code-review-sdk-1.0.jar
+        run: wget -O ./libs/ai-code-review-sdk-1.0.jar https://github.com/yoyoya1/code-review-log/releases/download/v1.0/ai-code-review-sdk-1.0.jar
 
       - name: Get repository name
         id: repo-name
